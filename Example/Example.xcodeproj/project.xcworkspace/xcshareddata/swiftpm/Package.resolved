@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "WWBankBalanceAnimationLabel",
+        "repositoryURL": "https://github.com/William-Weng/WWBankBalanceAnimationLabel.git",
+        "state": {
+          "branch": "main",
+          "revision": "26103bc29c3cd73dfb2697bbedc44da41b822710",
+          "version": null
+        }
+      },
+      {
         "package": "WWPrint",
         "repositoryURL": "https://github.com/William-Weng/WWPrint",
         "state": {

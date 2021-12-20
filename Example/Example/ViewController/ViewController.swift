@@ -8,6 +8,7 @@
 
 import UIKit
 import WWPrint
+import WWBankBalanceAnimationLabel
 
 final class ViewController: UIViewController {
     
@@ -21,15 +22,15 @@ final class ViewController: UIViewController {
     
     @IBAction func running(_ sender: UIBarButtonItem) {
         
-        label1.balance(from: 0, to: 10000, format: "TWD. %.1f") { value in
+        label1.balance(from: 0, to: 100_000_000, format: "TWD. %.0f") { value in
             wwPrint(value)
         } completion: { isCompletion in
             wwPrint(isCompletion)
         }
         
-        label2.balance(to: 20000, duration: 3.0, format: "CNY. %.1f", runloop: .current, forMode: .common)
+        label2.balance(to: 123456.56789, duration: 3.0, format: "CNY. %.5f", runloop: .current, forMode: .common)
         
-        label3.balance(to: 30000, duration: 5.0, format: "USD. %.1f")
+        label3.balance(to: 200_000_000, duration: 5.0, format: "USD. %.1f")
     }
 }
 

@@ -13,6 +13,7 @@
 		3DBCD87B26F198EF00522E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87926F198EF00522E3B /* Main.storyboard */; };
 		3DBCD87D26F198F300522E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87C26F198F300522E3B /* Assets.xcassets */; };
 		3DBCD88026F198F300522E3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87E26F198F300522E3B /* LaunchScreen.storyboard */; };
+		3DC884DB27705B8F005D4B98 /* WWBankBalanceAnimationLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 3DC884DA27705B8F005D4B98 /* WWBankBalanceAnimationLabel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAC9C1927016E78006663C2 /* WWPrint in Frameworks */,
+				3DC884DB27705B8F005D4B98 /* WWBankBalanceAnimationLabel in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +118,7 @@
 			name = Example;
 			packageProductDependencies = (
 				3DAC9C1827016E78006663C2 /* WWPrint */,
+				3DC884DA27705B8F005D4B98 /* WWBankBalanceAnimationLabel */,
 			);
 			productName = Example;
 			productReference = 3DBCD87026F198EF00522E3B /* Example.app */;
@@ -146,6 +149,7 @@
 			mainGroup = 3DBCD86726F198EF00522E3B;
 			packageReferences = (
 				3DAC9C1727016E78006663C2 /* XCRemoteSwiftPackageReference "WWPrint" */,
+				3DC884D927705B8F005D4B98 /* XCRemoteSwiftPackageReference "WWBankBalanceAnimationLabel" */,
 			);
 			productRefGroup = 3DBCD87126F198EF00522E3B /* Products */;
 			projectDirPath = "";
@@ -389,6 +393,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		3DC884D927705B8F005D4B98 /* XCRemoteSwiftPackageReference "WWBankBalanceAnimationLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWBankBalanceAnimationLabel.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -396,6 +408,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3DAC9C1727016E78006663C2 /* XCRemoteSwiftPackageReference "WWPrint" */;
 			productName = WWPrint;
+		};
+		3DC884DA27705B8F005D4B98 /* WWBankBalanceAnimationLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DC884D927705B8F005D4B98 /* XCRemoteSwiftPackageReference "WWBankBalanceAnimationLabel" */;
+			productName = WWBankBalanceAnimationLabel;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
